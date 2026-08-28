@@ -26,6 +26,7 @@ yesCloseBtn.onclick = function() {
     mainPage.style.display = "none";
     finalPage.style.display = "flex";
 };  
+const homeBtn = document.querySelector("#homeBtn");
 
 homeBtn.onclick = function() {
     window.location.href = "index.html";
