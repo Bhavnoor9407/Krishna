@@ -55,18 +55,18 @@ button {
 .buttonn {
     font-size: 18px;
     background-color: rgb(243, 142, 159);
-    color: gray;
+    color: black;
     text-align: center;
 }
 .yes-btn{
     font-size: 18px;
     background-color: rgb(243, 142, 159);
-    color: gray;
+    color: black;
 }
 .no-btn{
     font-size: 16px;
     background-color: rgb(243, 142, 159);
-    color: gray;
+    color: black;
 }
 .sorry-text {
     font-size: 25px;
@@ -128,6 +128,8 @@ backdrop-filter: blur(5px);
 #yescloseBtn{
     display: block;
     margin: 20px auto 0;
+    justify-content: center;
+    align-items: center;
 }
 #mainPage {
     min-height: 100vh;
